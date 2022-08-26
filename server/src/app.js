@@ -6,6 +6,8 @@ const PORT = process.env.PORT || 5000;
 
 dotenv.config();
 
+const User = require("../models/userSchema.model");
+
 // app.use(express.json());
 // app.use(express.urlencoded({ extended: false }));
 
